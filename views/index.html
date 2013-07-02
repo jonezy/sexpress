@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="row">
+  <div class="hero-unit">
+    <h1>swig + express = xpress</h1>
+  </div>
+  <div class="column10 alpha">
+
+    <h3>What is sexpress?</h3>
+    <p>sexpress is a starting point for building node apps using the swig
+    templating engine (my personal favourite).</p>
+
+    <p>It comes with the following stuff<p>
+    <ul>
+      <li>Node.js + Express</li>
+      <li>Grunt based build system</li>
+      <li>Swig Templating Engine</li>
+      <li>Twitter Bootstrap</li>
+      <li>1140px Grid System</li>
+    </ul>
+
+    <h3>What is it good for?</h3>
+    <ul>
+      <li>Internal projects</li>
+      <li>Prototyping ideas</li>
+    </ul>
+
+    <h3>Getting Started</h3>
+    <ul>
+      <li>Clone or fork the repository (i would recommend forking)</li>
+      <li>git clone git://githu.com/yourusername/sexpress.git ./project-name</li>
+      <li>cd project-name && rm -rf .git</li>
+      <li>npm install</li>
+      <li>now you can start your project</li>
+    </ul>
+  </div>
+  <div class="column6 well omega">
+    <h4>FAQ</h4>
+    <dl>
+      <dt>Eww, Twitter Bootstrap?</dt>
+      <dd>Yeah everyone hates it, so replace it with something you like. It was chosed because it get's you from zero to
+          something in very little time (which is the point of this thing)</dd>
+    </dl>
+    <dl>
+      <dt>That's cool, but this won't work on windows</dt>
+      <dd>Sure it will, install node, clone the repo and then npm install</dd>
+
+    </dt>
+
+  </div>
+</div>
+<div class="row">
+  <div class="column16">
+  </div>
+</div>
+{% endblock %}
