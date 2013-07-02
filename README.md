@@ -20,7 +20,10 @@ It comes with the following stuff
 ### Getting Started
 
 - Clone or fork the repository (i would recommend forking)
-- git clone git://githu.com/yourusername/sexpress.git ./project-name
+- git clone git@github.com/yourusername/sexpress.git ./project-name
 - cd project-name && rm -rf .git
 - npm install
+- install grunt npm install -g grunt
+- run 'grunt'
+- ...
 - now you can start your project
